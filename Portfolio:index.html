@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tanay Tibrewal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                onClick="document.getElementById('about').scrollIntoView();"
+                aria-current="page"
+                href="#"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                onClick="document.getElementById('education').scrollIntoView();"
+                >Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                onClick="document.getElementById('skills').scrollIntoView();"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                onClick="document.getElementById('Contact').scrollIntoView();"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="b-example-divider"></div>
+
+    <div class="px-4 py-5 my-5 text-center">
+      <img
+        class="d-block mx-auto mb-4"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
+        alt=""
+        width="102"
+        height="87"
+      />
+      <h1 class="display-5 fw-bold text-body-emphasis" id="about">
+        Tanay Tibrewal
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Student at DJ Sanghvi College of Engineering,<br />
+          pursuing BTech in Computer Science and Engineering (Data Science)
+        </p>
+      </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom text-primary" id="education">Education</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <h3 class="fs-2 text-body-emphasis">School</h3>
+          <p>
+            SJP Academy, Malad East, Mumbai, India <br />
+            10th Grade Percentile: 94.1% (2020)
+          </p>
+        </div>
+        <div class="feature col">
+          <h3 class="fs-2 text-body-emphasis">Junior College</h3>
+          <p>
+            Prakash College, Kandivali, Mumbai, India <br />
+            MHT CET Competitive Exam Score: 96.1 %ile (Maharastra) (2022) <br />
+          </p>
+        </div>
+        <div class="feature col">
+          <h3 class="fs-2 text-body-emphasis">Degree University</h3>
+          <p>
+            SVKM's DJSCE Vile Parle (West) Mumbai, India <br />
+            Pursing Bachelors of Technology(BE/BTech.) in Computer Science &
+            Engineering <br />
+            with minor focus on Data Science.(2022-2026)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 style="color: red" class="pb-2 border-bottom" id="skills">Skills</h2>
+
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+      >
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#bootstrap" />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">C Programming</h3>
+            <p>Implemented Data Structures and different Algorithms using C</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#cpu-fill" />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Java</h3>
+            <p>
+              Learnt concepts of Object Oriented Programming, MultiThreading,
+              Exception and File Handling
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#calendar3" />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Python</h3>
+            <p>
+              Knowledge in Basic loops, conditional statements along with
+              classes and objects
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#home" />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">SQL</h3>
+            <p>Basic SQL Queries for CRUD Operations on a RDBMS</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#speedometer2" />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML 5</h3>
+            <p>Intermediate at HTML</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#toggles2" />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CSS 3</h3>
+            <p>Intermediate at CSS 3</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#geo-fill" />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap 5.0</h3>
+            <p>Intermediate at Bootstrap 5</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg
+            class="bi text-body-secondary flex-shrink-0 me-3"
+            width="1.75em"
+            height="1.75em"
+          >
+            <use xlink:href="#tools" />
+          </svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Tailwind</h3>
+            <p>Begginer at tailwind framework</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 style="color: teal" class="pb-2 border-bottom" id="Contact">
+        Contact Me
+      </h2>
+
+      <div
+        class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center"
+      >
+        <div class="list-group col-10">
+          <a
+            href="https://www.linkedin.com/in/tanaytibrewal2804?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
+              alt="twbs"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            />
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">LinkedIn</h6>
+                <p class="mb-0 opacity-75">Connect with me!</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/Tanay2804"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              alt="twbs"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            />
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">Github</h6>
+                <p class="mb-0 opacity-75">View All My Projects Here</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://twitter.com/tibrewal_tanay"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png"
+              alt="twbs"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            />
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">Twitter</h6>
+                <p class="mb-0 opacity-75">Tweet at me</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://instagram.com/tanaytibrewal28?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <img
+              src="https://static-00.iconduck.com/assets.00/social-instagram-icon-2048x2048-xuel0xhc.png"
+              alt="twbs"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            />
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">Instagram</h6>
+                <p class="mb-0 opacity-75">Social Media</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >&copy; All Rights Reserved</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter" /></svg
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram" /></svg
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook" /></svg
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
